@@ -1,0 +1,31 @@
+# Entorno virtual y caché de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+
+# Variables de entorno (el .env real no se sube; se copia desde .env.example)
+.env
+.env.*
+!.env.example
+
+# Base SQLite local
+*.db
+*.sqlite3
+
+# Node y build del frontend
+node_modules/
+dist/
+dist-ssr/
+
+# Registros
+*.log
+
+# Editor y sistema operativo
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
